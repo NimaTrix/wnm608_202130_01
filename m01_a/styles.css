@@ -70,6 +70,8 @@ nav{
     font-style: normal;
     font-size: 16pt;
     color: #ffffff;
+    position: fixed;
+	z-index: 5;
 }
 
 nav a{
@@ -77,6 +79,8 @@ nav a{
 	color: #ffffff;
 	text-decoration: none;
 }
+
+
 
 body{
 
