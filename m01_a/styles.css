@@ -1,0 +1,128 @@
+
+
+body{
+
+	min-height: 100%;
+	display:flex;
+	flex-direction: column;
+	align-items: stretch;
+	/*Font*/
+	color: #141014;
+	font-family: 'catamaran', sans-serif;
+	height: 100%;
+	text-align: center;
+}
+
+h1{ margin-top: 40px;
+	font-size: 45px;
+	font-family: 'catamaran', sans-serif;
+	color: #E18D96;
+}
+h2{
+	height: 60px;
+	text-align: center;
+    font-family: catamaran,sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 3em;
+    color: #411511;
+	margin-bottom: 40px;
+}
+h3{
+	font-family: catamaran,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2em;
+    background-color: #050505;
+	color: #f2f2f2;
+	padding:20px 20px;
+	margin:40px auto;
+	border-radius: 10px;
+}
+
+a[href]{
+	font-family: catamaran,sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 14pt;
+    color: #ffffff;
+    text-decoration-style: none;
+}
+
+p{
+	font-family: catamaran,sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 14pt;
+    color: #141014;
+    text-decoration-style: none;
+}
+
+nav{
+	display: flex;
+	flex-direction:row;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	margin-right:0px;
+	background-color: #000000;
+	font-family: catamaran,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16pt;
+    color: #ffffff;
+}
+
+nav a{
+	padding: 1em;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+body{
+
+	min-height: 100%;
+	display:flex;
+	flex-direction: column;
+	align-items: stretch;
+}
+
+#overview{
+	text-align: center;
+}
+
+
+#recipe1{
+	background-color: #E18D96;
+	text-align: center;
+	padding:50px;
+}
+
+
+#recipe2{
+	background-color: #C8B4BA;
+	text-align: center;
+	padding:50px;
+}
+
+#recipe3{
+	background-color: #F3DDB3;
+	text-align: center;
+	padding:50px;
+}
+
+img{
+	border-radius: 20px;
+}
+ul {
+	list-style-type: none;
+}
+
+footer{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	color: #141014;
+	background-color: #ffffff;
+	font-size: 12px;
+	position: bottom;
+}
