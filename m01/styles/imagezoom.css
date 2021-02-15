@@ -1,0 +1,29 @@
+.zoom{
+	display: inline-block;
+}
+
+.main-image{
+	position: relative;
+}
+
+.main-image img{
+	width: 400px;
+	height: 600px;
+}
+
+.zoomed-image{
+	width: 400px;
+	height: 600px;
+	background-size: calc(400px * 4);
+	background-position: 0 0;
+}
+
+.zoomer{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 150px;
+	height: 100px;
+	border: 1px solid white;
+	pointer-events: none;
+}

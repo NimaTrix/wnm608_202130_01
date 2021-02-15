@@ -1,0 +1,59 @@
+.tabgroup{
+	width: 50%;
+
+}
+
+.tabgroup .tablist{
+	display: flex;
+	border-block-end: 1px solid #141014;
+	font-weight: 500;
+	font-style: normal;
+}
+
+.tabgroup .tab{
+	padding: 0.5em 1em;
+	flex: 1 1 auto;
+	position: relative;
+}
+
+.tabgroup .tab:hover{
+	background-color: #efefef;
+}
+
+.tabgroup .tab.active::after{
+	content: '';
+	background-color: #FF1040;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 3px;
+}
+
+.tabgroup .contentlist{
+	width: 100%;
+	height: 15em;
+	position: relative;
+}
+
+.tabgroup .content{
+	padding: 5%;
+	width: 100%;
+	height: 75%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: #ffffff;
+	background-color: #141014;
+	opacity: 0;
+	pointer-events: none;
+}
+
+.tabgroup .content.active{
+	opacity: 1;
+	pointer-events: initial;
+}
+
+.tabgroup .content p{
+	width: 100%;
+}

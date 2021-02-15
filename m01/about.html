@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Snickerdoodle Cake_Base</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles/carousel.css">
+	<script type="text/javascript" src="scripts/jquery-3.5.1.min.js"></script>
+	<script type="text/javascript" src="scripts/carousel.js"></script>
+</head>
+<body>
+	<header>
+		<nav>
+			<a href="index.html">Home</a>
+			<a href="about.html">Cake</a>
+			<a href="gallery.html">Swirl</a>
+			<a href="paintings.html">Gallery</a>
+		</nav>
+	</header>
+	<main>
+
+		<h1>The Cake Base</h1>
+		<p><img class="artist_image" src="img/mix.jpg" alt="Ingredients">
+			<ul>
+				<li>3 and 2/3 cups cake flour</li>
+				<li>1 teaspoon salt</li>
+				<li>1 and 1/2 cups unsalted butter, softened to room temperature</li>
+				<li>1 and 2/3 cups granulated sugar</li>
+				<li>3 large eggs + 2 additional egg whites, at room temperature</li>
+				<li>3/4 teaspoon baking soda</li>
+				<li>1 teaspoon baking powder</li>
+				<li>1 Tablespoon pure vanilla extract</li>
+				<li>1 and 1/2 cups buttermilk, at room temperature</li>
+			</ul>
+			</p>
+			<p>
+			Preheat oven to 350°F. Grease three 9-inch cake pans, line with parchment paper, then grease the parchment paper.
+			</p>
+			<p>
+			Make the cake: Whisk the cake flour, salt, baking powder, and baking soda together. Set aside.
+			</p>
+			<p>
+			Using a handheld or stand mixer fitted with a paddle or whisk attachment, beat the butter and sugar together on high speed until smooth and creamy, about 3 minutes. Beat in the 3 eggs, 2 egg whites, and vanilla extract on high speed until combined, about 2 minutes. (Mixture will look curdled as a result of the egg liquid and solid butter combining.) Scrape down the sides and up the bottom of the bowl as needed. With the mixer running on low speed, slowly add the dry ingredients. With the mixer still running on low speed, slowly pour in the buttermilk then mix just until combined. The batter will be slightly thick.
+			</p>
+			<p>
+			Pour batter evenly into cake pans. Set aside for a few minutes as you make the cinnamon swirl.
+			</p>
+	</main>
+	<div class="carousel">
+			<div class="slides">
+				<div class="slide center" style="background: url(img/gallery2.jpg)center; background-size: cover;"></div>
+				<div class="slide" style="background: url(img/gallery3.jpg) center; background-size: cover;"></div>
+				<div class="slide" style="background: url(img/gallery4.jpg) center; background-size: cover;"></div>
+			</div>
+
+			<div class="controls">
+				<div class="control-left">&lt;</div>
+				<div class="control-right">&gt;</div>
+				<div class="control-pagination">
+					<div class="control-dot">&bullet;</div>
+					<div class="control-dot">&bullet;</div>
+					<div class="control-dot">&bullet;</div>
+			</div>
+	</div>
+
+	<footer><p> &#169; Purnima Bhaskaran <br> WNM 608 01: Tech 2: Back-End </p></footer>
+	<script>
+			new Carousel({
+				element: $(".carousel").eq(0),
+				timing: 6000
+			});
+	</script>
+</body>
+</html>
