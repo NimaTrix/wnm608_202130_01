@@ -1,3 +1,3 @@
 # Purnima Bhaskaran
 
-http://abstract.ink
+http://www.abstract.ink
