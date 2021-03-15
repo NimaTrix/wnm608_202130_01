@@ -472,7 +472,7 @@ figure {
 }
 
 .hidden:checked+.checkmark::after {
-    content: '✓';
+    content: '✔';
 }
 
 .hidden+.toggle {
