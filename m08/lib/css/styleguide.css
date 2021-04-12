@@ -4,12 +4,12 @@
 	--header-height:3em;
 
 	--color-neutral: #919191;
-	--color-neutral-dark: #373737;
-	--color-neutral-light: #f0f0f0;
+	--color-neutral-dark: #323232;
+	--color-neutral-light: #F1F1F1;
 
 	--color-warning: #FFDF6C;
 	--color-error: #E50000;
-	--color-confirm: #70CAA9;
+	--color-confirm: #54DB82;
 }
 
 *,*::after,*::before{
@@ -24,7 +24,7 @@ body{
 
 h1,
 h2{
-	font-family: Didot,"Times new roman",serif;
+	font-family: minion-pro,"Times new roman",serif;
 }
 
 h1{
@@ -106,6 +106,7 @@ a:hover{
 		margin-top: 0;
 		margin-bottom: 0;
 		padding-left: 0;
+		justify-content: center;
 	}
 
 	.nav a {
@@ -213,10 +214,11 @@ a:hover{
 }
 
 .card {
-	padding: 1em;
+	padding: 2em;
 	overflow: hidden;
 	position: relative;
 }
+
 
 	.container>.card{
 		margin-top: 1em;
@@ -309,6 +311,9 @@ a:hover{
 		object-position: center;
 		border-radius: 50%;
 		vertical-align: text-bottom;
+		padding: 30px;
+		border: 1px dashed var(--color-neutral-dark);
+
 	}
 
 img.icon{
@@ -317,7 +322,6 @@ img.icon{
 img.product{
 	border-radius: 10px;
 	border: 20px solid var(--color-neutral-light);
-
 }
 .center-child{
 	display: flex;
@@ -391,9 +395,9 @@ figure {
 	margin:0;
 	font: inherit;
 	-webkit-appearance:none;
-	border-width: 0;
-	border-color: var(--color-neutral-light);
-	border-radius: 3px;
+	border-width: 4px;
+	border-color: var(--color-main);
+	border-radius: 6px;
 	outline:0;
 	vertical-align: baseline;
 	color:inherit;
