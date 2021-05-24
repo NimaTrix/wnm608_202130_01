@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>CSS Style guide</title>
+    
+    <link rel="stylesheet" href="../lib/css/gridsystem.css">
+    <link rel="stylesheet" href="../lib/css/styleguide.css">
+    <link rel="stylesheet" href="../css/storetheme.css">
+    <link rel="stylesheet" href="https://use.typekit.net/hmo0xev.css">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+</head>
+<body>
+    <header class="container">
+        <h1>CSS Style Guide</h1>
+    <div class="card card-light">
+        <nav class="nav">
+            <ul>
+                <li><a href="#typography">Typography</a></li>
+                <li><a href="#images">Images</a></li>
+                <li><a href="#cards">Cards</a></li>
+                <li><a href="#viewwindow">View Window</a></li>
+                <li><a href="#navs">Navs</a></li>
+                <li><a href="#tables">Tables</a></li>
+                <li><a href="#forms">Forms</a></li>
+                <li><a href="#grid">Grid</a></li>
+                <li><a href="#sources">References</a></li>
+            </ul>
+        </nav>
+    </div>
+    </header>
+
+    <hr class="spacer large">
+
+    <section id="typography">
+        <div class="container">
+            <h2>Typefaces and sizes</h2>
+            <h3>Headers</h3>
+            <div class="container pad">
+                <div class="card card-soft card-light card-flat">
+                    <div class="grid gap">
+                        <div class="col-sm-12 col-md-4 center-child">
+                            <div class= "card">
+                                <h1>Header 1</h1>
+                                <p>Minion Pro 40px<br>Shop name, page main offers and titles</p>
+                                <br><br>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4 center-child">
+                            <div class= "card">
+                                <h2>Header 2</h2>
+                                <p>Minion Pro 32px<br>Page headings and titles</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4 center-child">
+                            <div class= "card">
+                                <h3>Header 3</h3>
+                                    <p>Avenir 16px<br>Sections and subheaders</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h3>Body</h3>
+            <div class="container pad">
+                <div class="card card-soft card-light card-flat">
+                    <div class="grid gap">
+                        <div class="col-sm-12 col-md-4 center-child">
+                            <div class= "card">
+                                <p>Paragraph</p>
+                                <p>Avenir 16px,normal<br>Text descriptions and longform</p>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4 center-child">
+                            <div class= "card">
+                                <br>
+                                <a href="#">Link</a>
+                                <p>Avenir 16px,bold<br>Links to articles and refernces</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4 center-child">
+                            <div class= "card">
+                                <br>
+                                <figcaption>Caption</figcaption>
+                                <p>Avenir 12px<br>Figure and image descriptions</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="spacer large">
+
+    <section id="images">
+        <div class="container">
+            <h2>Image layouts</h2>
+            <h3>Hero Image</h3>
+            <div class="view-window hero" style ="background-image: url(../img/m1.jpg)">
+            <h1>Audiophile</h1>
+            </div>
+        </div>
+    </section>
+
+    <hr class="spacer large">
+
+    <section id="cards">
+        <div class="container">
+            <h2>Card types</h2>
+            <h3>Full cards</h3>
+            <div class="container pad">
+                <div class="card card-soft card-light card-flat">
+                    <div class="grid">
+                        <div class="col-xs-12 col-md-7 center-child">
+                            <div style="max-width: 75%;">
+                                <h2>Main heading</h2>
+                                <p>Looking for some eco friendly hand crafted plush toys for a gift?Lorem ipsum dolor sit, amet consectetur adipisicing, elit.Repellat obcaecati nisi iusto eos! Assumenda saepe, laborum eaque voluptas</p>
+                                <h3>Sub heading</h3>
+                                <p>cumque soluta omnis iure aliquid vel? Quaerat sunt laboriosam voluptates porro, autem quisquam vitae dignissimos repellat repellendus, in saepe, asperiores? Assumenda ullam cum quod dolorem dignissimos non fugit illum, illo itaque perspiciatis, placeat inventore omnis ut eaque voluptatem animi.</p>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-5">
+                            <img src=../img/m2.jpg alt="image" class="image-cover">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h3>Full cards with text</h3>
+            <div class="container pad">
+                <div class="card card-soft card-light card-flat">
+                    <div class="grid gap">
+                        <div class="col-sm-12 col-md-4">
+                            <div class= "card">
+                            <img src=../img/icons/rocket.png alt="Get the latest dropps" class="icon"> <!--Flat Icons-->
+                            <div>
+                                <h3>Figure title</h3>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum officiis nam, maiores ex veniam commodi.</p>
+                                <p>Magni, omnis culpa, aspernatur impedit iste hic commodi. Repellat libero labore, maxime, animi saepe recusandae.</p>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4">
+                            <div class= "card">
+                            <img src=../img/icons/directions.png alt="Find the right product" class="icon"> <!--Flat Icons-->
+                            <div>
+                                <h3>Figure title</h3>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum officiis nam, maiores ex veniam commodi.</p>
+                                <p>Magni, omnis culpa, aspernatur impedit iste hic commodi. Repellat libero labore, maxime, animi saepe recusandae.</p>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4">
+                            <div class= "card">
+                            <img src=../img/icons/money.png alt="save more" class="icon"> <!--Flat Icons-->
+                            <div>
+                                <h3>Figure title</h3>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum officiis nam, maiores ex veniam commodi.</p>
+                                <p>Magni, omnis culpa, aspernatur impedit iste hic commodi. Repellat libero labore, maxime, animi saepe recusandae.</p>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h3>Product cards</h3>
+            <div class="container pad">
+                <div class ="grid gap">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card card-soft card-dark">
+                            <div>
+                            <img src="../img/p1.jpg" alt="plush" class="image-contain product">
+                            </div>
+                            <h3>Figure title</h3>
+                            <div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores corrupti dolore neque, nostrum laboriosam? Molestiae.</p>
+                                <p>Officia odio minus fugiat quibusdam sit assumenda, ipsum, ratione aut, rerum impedit facere tenetur suscipit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card card-soft card-dark">
+                            <div>
+                            <img src="../img/p2.jpg" alt="plush" class="image-contain product">
+                            </div>
+                            <h3>Figure title</h3>
+                            <div>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum officiis nam, maiores ex veniam commodi.</p>
+                                <p>Magni, omnis culpa, aspernatur impedit iste hic commodi. Repellat libero labore, maxime, animi saepe recusandae.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card card-soft card-dark">
+                            <div>
+                            <img src="../img/p3.jpg" alt="plush" class="image-contain product">
+                            </div>
+                            <h3>Figure title</h3>
+                            <div>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequatur itaque quod ipsum maxime. Non.</p>
+                                <p>Magnam ea eaque impedit repellat cupiditate odit assumenda quam doloribus officia hic. Tempore eaque, perferendis.</p>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="spacer large">
+
+    <section id="navs">
+        <script>
+            const makeNav = (classes='') =>{
+            const links = ["home","store","about"];
+            let ran = Math.floor(Math.random()*links.length);
+            return `
+            <div class = "card card-light">
+                <nav class ="${classes}">
+                    <ul>
+                    ${links.reduce((r,o,i)=>r+`<li ${i==ran&& `class="active"`}><a href="#">${o}</a></li>`,"")}
+                    </ul>
+                </nav>
+            </div>`;
+        }
+        </script>
+        <div class="container">
+            <h2>Main Navigation</h2>
+
+            <h3>Page level navigation</h3>
+            <script>document.write(makeNav("nav-pills"));</script>
+
+            <h3>Crumb navigation for products</h3>
+            <script>document.write(makeNav("nav-crumbs"));</script>
+
+        </div>
+
+        <script>
+            $(()=>{
+                $("[class*='nav'] a").on("click",function(e){console.log("honk")
+                    e.preventDefault();
+                    $(this).closest("li").addClass("active")
+                        .siblings().removeClass("active");
+
+                })
+            })
+        </script>
+    </section>
+
+    <hr class="spacer large">
+
+    <section id="tables">
+        <script>
+            const makeTable = (classes='') => {
+                const head = ["id","name","email","phone"];
+                const body = [
+                    [1,"Hamilton","hammy@gmail.com","555-2424"],
+                    [2,"Milton","milly@gmail.com","555-2425"],
+                    [3,"Liton","liton@gmail.com","555-2426"],
+                    [4,"Ton","Ton@gmail.com","555-2427"],
+                    [5,"on","on@gmail.com","555-2428"],
+                    [6,"n","N@gmail.com","555-2429"],
+                ];
+                return `
+                <div class = "container">
+                    <div class = "card card-light">
+                        <table class = "${classes}">
+                            <thead>
+                                <tr>${head.reduce((r,o)=>r+`<th>${o}</th>`,"")}</tr>
+                            </thead>
+                            <tbody>${body.reduce((r,o)=>r+`<tr>${o.reduce((r,o)=>r+`<td>${o}</td>`,"")}</tr>`,"")}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>`;
+            }
+        </script>
+
+        <div class="card card-medium card-flat">
+            <div class="container">
+                <h2>Tables</h2>
+            </div>
+        </div>
+            <div class="container">
+                <h3>Striped style</h3>
+                <script>document.write(makeTable("table striped"));</script>
+            </div>
+    </section>
+
+    <hr class="spacer large">
+
+    <section id="forms">
+        <div class="card card-medium card-flat">
+            <div class="container">
+                <h2>Forms</h2>
+            </div>
+        </div>
+        <div class="container">
+            <h3>Select</h3>
+            <div class="card card-light">
+                <div class="form-select">
+                    <select name="Amount">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                    </select>
+                </div>
+            </div>
+            <h3>Checkboxes</h3>
+            <div class="card card-light">
+                <div>
+                    <input type="checkbox" id="checkmark-1" class="hidden">
+                    <label for="checkmark-1" class="checkmark"></label>
+                </div>
+                <div>
+                    <input type="checkbox" id="toggle-1" class="hidden">
+                    <label for="toggle-1" class="toggle"></label>
+                </div>
+                <div>
+                    <input type="checkbox" id="toggle-2" class="hidden">
+                    <label for="toggle-2" class="toggle" style="font-size:2em;"></label>
+                </div>
+            </div>
+
+            <h3>Radio Groups</h3>
+            <div class="card card-light">
+                <div>
+                    <input type="radio" id="radio-2-1" class="hidden" name="radio-2">
+                    <label for="radio-2-1" class="radio-group"></label>
+                    <input type="radio" id="radio-2-2" class="hidden" name="radio-2">
+                    <label for="radio-2-2" class="radio-group"></label>
+                    <input type="radio" id="radio-2-3" class="hidden" name="radio-2">
+                    <label for="radio-2-3" class="radio-group"></label>
+                </div>
+            </div>
+
+            <h3>Buttons</h3>
+
+            <div class="card card-light">
+                <div class="grid gap">
+                    <div class="col-xs-12 col-md-3">
+                        <input type="button" class="form-button" value="Input">
+                    </div>
+                    <div class="col-xs-12 col-md-3">
+                        <input type="submit" class="form-button" value="Submit">
+                    </div>
+                    <div class="col-xs-12 col-md-3">
+                        <button type="submit" class="form-button">Button</button>
+                    </div>
+                    <div class="col-xs-12 col-md-3">
+                        <a href="#" class="form-button">Anchor</a>
+                    </div>
+                </div>
+            </div>
+
+            <h3>Labels</h3>
+            <div class="card card-light">
+                <label for="input-1" class="form-label">Input</label>
+                <input type="text" id="input-1" class="form-input" placeholder="Input">
+            </div>
+
+            <h3>Control</h3>
+
+            <div class="card card-light">
+                <div class="form-control">
+                    <label for="input-1" class="form-label">Username</label>
+                    <input type="text" id="input-1" class="form-input" placeholder="Input">
+                </div>
+                <div class="form-control">
+                    <label for="input-2" class="form-label">Password</label>
+                    <input type="password" id="input-1" class="form-input" placeholder="Password">
+                </div>
+            </div>
+
+            <h3>Hotdog</h3>
+            <div class="card card-light">
+                <input type="search" class="hotdog" placeholder="Search Hotdog">
+            </div>
+
+            <h3>Coloring</h3>
+            <div class="card card-light">
+                <div class="grid gap">
+                    <div class="col-xs-12 col-md-4">
+                        <button type="submit" class="form-button warning">Warning</button>
+                    </div>
+                    <div class="col-xs-12 col-md-4">
+                        <button type="submit" class="form-button error">Error</button>
+                    </div>
+                    <div class="col-xs-12 col-md-4">
+                        <button type="submit" class="form-button confirm">Confirm</button>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+    </section>
+
+    <hr class="spacer large">
+
+    <section id="grid">
+        <div class="container overcrop pad">
+            <h2>Responsive Grid system</h2>
+            <h3>Grid Gap</h3>
+            <div class="grid gap">
+                <div class="col-4">
+                    <div class="card card-soft card-dark">&nbsp;</div>
+                </div>
+                <div class="col-4">
+                    <div class="card card-soft card-dark">&nbsp;</div>
+                </div>
+                <div class="col-4">
+                    <div class="card card-soft card-dark">&nbsp;</div>
+                </div>
+            </div>
+
+             <hr>
+
+             <div class="grid gap xs-small md-large">
+                <div class="col-4">
+                    <div class="card card-soft card-dark">&nbsp;</div>
+                </div>
+                <div class="col-4">
+                    <div class="card card-soft card-dark">&nbsp;</div>
+                </div>
+                <div class="col-4">
+                    <div class="card card-soft card-dark">&nbsp;</div>
+                </div>
+             </div>
+
+             <hr>
+
+             <div class="grid gap small">
+                <div class="col-4">
+                    <div class="card card-soft card-dark">&nbsp;</div>
+                </div>
+                <div class="col-4">
+                    <div class="card card-soft card-dark">&nbsp;</div>
+                </div>
+                <div class="col-4">
+                    <div class="card card-soft card-dark">&nbsp;</div>
+                </div>
+             </div>
+
+             <div class="container gap">
+                <h3>Responsive Grid</h3>
+                <div class="grid gap small">
+                    <div class="col-xs-12 col-md-6 col-lg-3">
+                        <div class="card card-soft card-dark"></div>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-3">
+                        <div class="card card-soft card-dark"></div>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-3">
+                        <div class="card card-soft card-dark"></div>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-3">
+                        <div class="card card-soft card-dark"></div>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-3">
+                        <div class="card card-soft card-dark"></div>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-3">
+                        <div class="card card-soft card-dark"></div>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-3">
+                        <div class="card card-soft card-dark"></div>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-3">
+                        <div class="card card-soft card-dark"></div>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-3">
+                        <div class="card card-soft card-dark"></div>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-3">
+                        <div class="card card-soft card-dark"></div>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-3">
+                        <div class="card card-soft card-dark"></div>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-3">
+                        <div class="card card-soft card-dark"></div>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-3">
+                        <div class="card card-soft card-dark"></div>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-3">
+                        <div class="card card-soft card-dark"></div>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-3">
+                        <div class="card card-soft card-dark"></div>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-3">
+                        <div class="card card-soft card-dark"></div>
+                    </div>
+                </div>
+             </div>
+        </div>
+
+    </section>
+
+    <hr class="spacer large">
+
+    <section id="sources">
+        <div class="container">
+            <h2>References</h2>
+            <div class="card card-light">
+                <p>Icons made on <a href="https://www.flaticon.com/authors/nhor_phai/lineal/3" title="Flat Icon Pack">Flat Icons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
+                <p>Header Images from this collection on <a href="https://www.pexels.com/@sound-on?filter=photos" title="Woman wearing headphones">Pexels</a> from <a href="https://www.pexels.com/" title="Pexels">www.pexels.com</a></p>
+                <p>Product Images from this collection on <a href="https://drop.com/audiophile/wdrops" title="Product images">Pexels</a> from <a href="https://www.pexels.com/" title="Pexels">www.pexels.com</a></p>
+            </div>
+        </div>
+    </section>
+
+    <hr class="spacer large">
+
+
+    
+</body>
+</html>
